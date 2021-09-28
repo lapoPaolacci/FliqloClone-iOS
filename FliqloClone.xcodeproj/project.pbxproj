@@ -13,10 +13,11 @@
 		579FCB3226FF56CA00DFA338 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 579FCB3026FF56CA00DFA338 /* Main.storyboard */; };
 		579FCB3426FF56CB00DFA338 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 579FCB3326FF56CB00DFA338 /* Assets.xcassets */; };
 		579FCB3726FF56CB00DFA338 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 579FCB3526FF56CB00DFA338 /* LaunchScreen.storyboard */; };
+		579FCB3F26FF570B00DFA338 /* FlippingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 579FCB3E26FF570B00DFA338 /* FlippingLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		579FCB2726FF56CA00DFA338 /* TrendlyClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrendlyClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		579FCB2726FF56CA00DFA338 /* FliqloClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FliqloClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		579FCB2A26FF56CA00DFA338 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		579FCB2C26FF56CA00DFA338 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		579FCB2E26FF56CA00DFA338 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		579FCB3326FF56CB00DFA338 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		579FCB3626FF56CB00DFA338 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		579FCB3826FF56CB00DFA338 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		579FCB3E26FF570B00DFA338 /* FlippingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlippingLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +42,7 @@
 		579FCB1E26FF56CA00DFA338 = {
 			isa = PBXGroup;
 			children = (
-				579FCB2926FF56CA00DFA338 /* TrendlyClock */,
+				579FCB2926FF56CA00DFA338 /* FliqloClone */,
 				579FCB2826FF56CA00DFA338 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +50,12 @@
 		579FCB2826FF56CA00DFA338 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				579FCB2726FF56CA00DFA338 /* TrendlyClock.app */,
+				579FCB2726FF56CA00DFA338 /* FliqloClone.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		579FCB2926FF56CA00DFA338 /* TrendlyClock */ = {
+		579FCB2926FF56CA00DFA338 /* FliqloClone */ = {
 			isa = PBXGroup;
 			children = (
 				579FCB2A26FF56CA00DFA338 /* AppDelegate.swift */,
@@ -63,16 +65,17 @@
 				579FCB3326FF56CB00DFA338 /* Assets.xcassets */,
 				579FCB3526FF56CB00DFA338 /* LaunchScreen.storyboard */,
 				579FCB3826FF56CB00DFA338 /* Info.plist */,
+				579FCB3E26FF570B00DFA338 /* FlippingLabel.swift */,
 			);
-			path = TrendlyClock;
+			path = FliqloClone;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		579FCB2626FF56CA00DFA338 /* TrendlyClock */ = {
+		579FCB2626FF56CA00DFA338 /* FliqloClone */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 579FCB3B26FF56CB00DFA338 /* Build configuration list for PBXNativeTarget "TrendlyClock" */;
+			buildConfigurationList = 579FCB3B26FF56CB00DFA338 /* Build configuration list for PBXNativeTarget "FliqloClone" */;
 			buildPhases = (
 				579FCB2326FF56CA00DFA338 /* Sources */,
 				579FCB2426FF56CA00DFA338 /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = TrendlyClock;
-			productName = TrendlyClock;
-			productReference = 579FCB2726FF56CA00DFA338 /* TrendlyClock.app */;
+			name = FliqloClone;
+			productName = FliqloClone;
+			productReference = 579FCB2726FF56CA00DFA338 /* FliqloClone.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +104,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 579FCB2226FF56CA00DFA338 /* Build configuration list for PBXProject "TrendlyClock" */;
+			buildConfigurationList = 579FCB2226FF56CA00DFA338 /* Build configuration list for PBXProject "FliqloClone" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +117,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				579FCB2626FF56CA00DFA338 /* TrendlyClock */,
+				579FCB2626FF56CA00DFA338 /* FliqloClone */,
 			);
 		};
 /* End PBXProject section */
@@ -140,6 +143,7 @@
 				579FCB2F26FF56CA00DFA338 /* ViewController.swift in Sources */,
 				579FCB2B26FF56CA00DFA338 /* AppDelegate.swift in Sources */,
 				579FCB2D26FF56CA00DFA338 /* SceneDelegate.swift in Sources */,
+				579FCB3F26FF570B00DFA338 /* FlippingLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +220,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +275,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -288,12 +292,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YSJH53T2D4;
-				INFOPLIST_FILE = TrendlyClock/Info.plist;
+				INFOPLIST_FILE = FliqloClone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = it.lapopaolacci.TrendlyClock;
+				PRODUCT_BUNDLE_IDENTIFIER = it.lapopaolacci.FliqloClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,12 +311,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YSJH53T2D4;
-				INFOPLIST_FILE = TrendlyClock/Info.plist;
+				INFOPLIST_FILE = FliqloClone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = it.lapopaolacci.TrendlyClock;
+				PRODUCT_BUNDLE_IDENTIFIER = it.lapopaolacci.FliqloClone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -322,7 +326,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		579FCB2226FF56CA00DFA338 /* Build configuration list for PBXProject "TrendlyClock" */ = {
+		579FCB2226FF56CA00DFA338 /* Build configuration list for PBXProject "FliqloClone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				579FCB3926FF56CB00DFA338 /* Debug */,
@@ -331,7 +335,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		579FCB3B26FF56CB00DFA338 /* Build configuration list for PBXNativeTarget "TrendlyClock" */ = {
+		579FCB3B26FF56CB00DFA338 /* Build configuration list for PBXNativeTarget "FliqloClone" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				579FCB3C26FF56CB00DFA338 /* Debug */,

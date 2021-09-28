@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FliqloClone" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="568" height="320"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aw9-Ni-sbZ" customClass="FlippingLabel" customModule="FliqloClone" customModuleProvider="target">
+                                <rect key="frame" x="426" y="30" width="122" height="260"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="160"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nFX-Lf-IT1" customClass="FlippingLabel" customModule="FliqloClone" customModuleProvider="target">
+                                <rect key="frame" x="20" y="30" width="122" height="260"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="160"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ZG-qI-W7x" customClass="FlippingLabel" customModule="FliqloClone" customModuleProvider="target">
+                                <rect key="frame" x="296" y="30" width="122" height="260"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="160"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DGa-pb-nSo" customClass="FlippingLabel" customModule="FliqloClone" customModuleProvider="target">
+                                <rect key="frame" x="150" y="30" width="122" height="260"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="160"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jmb-kX-haD">
+                                <rect key="frame" x="0.0" y="156" width="568" height="8"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="8" id="NhO-PN-o2p"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="aw9-Ni-sbZ" firstAttribute="height" secondItem="DGa-pb-nSo" secondAttribute="height" id="0wb-61-AhO"/>
+                            <constraint firstItem="nFX-Lf-IT1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="2DV-RK-lBI"/>
+                            <constraint firstItem="Jmb-kX-haD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Ak9-KZ-O2w"/>
+                            <constraint firstItem="0ZG-qI-W7x" firstAttribute="width" secondItem="aw9-Ni-sbZ" secondAttribute="width" id="Coy-mD-Ybb"/>
+                            <constraint firstItem="Jmb-kX-haD" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="H8q-aB-ITT"/>
+                            <constraint firstItem="DGa-pb-nSo" firstAttribute="centerY" secondItem="nFX-Lf-IT1" secondAttribute="centerY" id="R2g-6E-xhV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aw9-Ni-sbZ" secondAttribute="trailing" constant="20" id="TA4-Xe-Riw"/>
+                            <constraint firstItem="aw9-Ni-sbZ" firstAttribute="width" secondItem="DGa-pb-nSo" secondAttribute="width" id="VyV-vq-jhE"/>
+                            <constraint firstItem="0ZG-qI-W7x" firstAttribute="centerY" secondItem="aw9-Ni-sbZ" secondAttribute="centerY" id="bWM-aG-oGK"/>
+                            <constraint firstItem="0ZG-qI-W7x" firstAttribute="leading" secondItem="DGa-pb-nSo" secondAttribute="trailing" constant="24" id="gSQ-sR-fzQ"/>
+                            <constraint firstItem="DGa-pb-nSo" firstAttribute="width" secondItem="nFX-Lf-IT1" secondAttribute="width" id="ivy-Q2-GAt"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nFX-Lf-IT1" secondAttribute="bottom" constant="30" id="qOm-bh-LA5"/>
+                            <constraint firstItem="aw9-Ni-sbZ" firstAttribute="leading" secondItem="0ZG-qI-W7x" secondAttribute="trailing" constant="8" id="rr0-CS-cQ4"/>
+                            <constraint firstItem="0ZG-qI-W7x" firstAttribute="height" secondItem="aw9-Ni-sbZ" secondAttribute="height" id="uh1-UG-SCl"/>
+                            <constraint firstItem="DGa-pb-nSo" firstAttribute="height" secondItem="nFX-Lf-IT1" secondAttribute="height" id="ujw-Ac-DWb"/>
+                            <constraint firstItem="DGa-pb-nSo" firstAttribute="leading" secondItem="nFX-Lf-IT1" secondAttribute="trailing" constant="8" id="w7A-XF-7bK"/>
+                            <constraint firstItem="nFX-Lf-IT1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="yNr-4u-4gz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Jmb-kX-haD" secondAttribute="trailing" id="zJc-zy-O7B"/>
+                            <constraint firstItem="aw9-Ni-sbZ" firstAttribute="centerY" secondItem="DGa-pb-nSo" secondAttribute="centerY" id="zSa-dP-8t1"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="hourTensLabel" destination="nFX-Lf-IT1" id="x10-n1-bBe"/>
+                        <outlet property="hourUnitsLabel" destination="DGa-pb-nSo" id="QSN-wk-Kp3"/>
+                        <outlet property="minuteTensLabel" destination="0ZG-qI-W7x" id="OFW-Uw-92Z"/>
+                        <outlet property="minuteUnitsLabel" destination="aw9-Ni-sbZ" id="fME-9I-fnf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138.28125" y="138.28125"/>
+        </scene>
+    </scenes>
+</document>
